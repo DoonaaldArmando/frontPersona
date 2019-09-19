@@ -1,0 +1,27 @@
+<div class="page-header clear-filter" filter-color="purple">
+  <div class="page-header-image" [style.background-image]="imagenFondo()"></div>
+  <div class="content">
+      <div class="login-page">
+          <div class="form">
+              <div id="imagen">
+                  <img src="..{{baseHREF}}assets/img/svg/authorization.svg" alt=""/>
+              </div>
+              <br>
+              <div id="leyenda">
+                  <h4 class="text-success" style="font-weight: bold">TEST ANGULAR - JAVA</h4>
+                  <p>Inicio de Sesión</p>
+              </div>
+              <div class="login-form">
+                  <input type="text" id="dataTest" placeholder="Token usuario" [(ngModel)]="usuario.xNombre"/>
+                  <input type="password" placeholder="Contraseña" [(ngModel)]="usuario.xPass"/>
+                  <button (click)="login()">
+                    <span *ngIf="!cargando">Ingresa</span> 
+                    <span *ngIf="cargando"><i class="now-ui-icons loader_refresh spin"></i>  Autenticando...</span> 
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+

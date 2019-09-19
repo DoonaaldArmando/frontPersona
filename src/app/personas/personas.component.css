@@ -1,0 +1,78 @@
+.modal-header{
+    background-color: #116598;
+    color: white;
+}
+
+.modal-header-icon{
+    font-size:28px;
+}
+
+.modal-title{
+    margin-left: 5px;
+    line-height: 1.78 !important;
+}
+
+.token-row{
+    color:#116598;
+    font-weight: bold;
+    font-size:17px;
+}
+
+th.mat-sort-header-sorted {
+    color: black;
+}
+
+th{
+    color:#116598;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.text-upper{
+    text-transform: uppercase;
+}
+
+.requerido{
+    color: red;
+}
+
+.dz-message{
+    height: 180px;
+}
+
+
+input{
+    text-transform: uppercase;
+}
+
+.numberCircle {
+    background: #116598;
+    border-radius: 1.15em;
+    -moz-border-radius: 1.15em;
+    -webkit-border-radius: 1.15em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 2.3em;
+    margin-right: 5px;
+    text-align: center;
+    width: 2.3em; 
+  }
+
+img-full{
+    width: 800px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+
+/*Autocomplete*/
+
+/deep/ .cdk-overlay-container { z-index: 9999; }
+
